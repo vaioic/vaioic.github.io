@@ -1,0 +1,27 @@
+[project]
+name = "vaioic-github-io"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Jian Wei Tay", email = "jian.tay@vai.org" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "myst-nb>=1.4.0",
+    "myst-parser>=5.1.0",
+    "pydata-sphinx-theme>=0.23.0",
+    "sphinx<9.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.11.24,<0.12.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "sphinx-autobuild>=2025.8.25",
+]
+
+[tool.uv]
+package = false

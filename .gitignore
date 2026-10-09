@@ -1,0 +1,49 @@
+# ==========================================
+# Sphinx Documentation Build Artifacts
+# ==========================================
+# Standard Sphinx output directories
+docs/_build/
+
+# Sphinx-Gallery generated content
+# (Automatically created from ./examples; should not be checked into git)
+docs/auto_examples/
+auto_examples/
+docs/gen_modules/
+gen_modules/
+.sg_toc.json
+
+# MyST-NB & Jupyter execution cache
+.jupyter_cache/
+docs/.jupyter_cache/
+**/jupyter_execute/
+
+# Doctrees and environment pickles
+.doctrees/
+docs/_build/doctrees/
+
+# ==========================================
+# Python & Virtual Environments
+# ==========================================
+.venv/
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==========================================
+# Tooling & IDE Caches
+# ==========================================
+# pytest / coverage / ruff / mypy caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# VS Code / Cursor / JetBrains IDE settings
+.vscode/
+.idea/
+
+# OS Specific
+.DS_Store
+Thumbs.db
