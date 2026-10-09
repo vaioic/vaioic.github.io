@@ -1,7 +1,7 @@
 [project]
 name = "vaioic-github-io"
 version = "0.1.0"
-description = "Add your description here"
+description = "VAI Optical Imaging Core site"
 readme = "README.md"
 authors = [
     { name = "Jian Wei Tay", email = "jian.tay@vai.org" }

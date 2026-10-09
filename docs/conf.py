@@ -35,14 +35,20 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
+html_static_path = ["_static"]
+html_css_files = [
+    "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap",
+    "custom.css",
+]
 
 html_theme = "pydata_sphinx_theme"
 html_static_path = ["_static"]
 
+html_logo = "_static/logo.png"
 html_theme_options = {
     "site_url": "https://vaioic.github.io/",
     "github_url": "https://github.com/vaioic/vaioic.github.io",
-    "use_edit_page_button": True,
+    "use_edit_page_button": False,
     "navbar_end": ["theme-switcher", "navbar-icon-links"],
     "navbar_start": ["navbar-logo"],
     "show_version_warning_banner": False,

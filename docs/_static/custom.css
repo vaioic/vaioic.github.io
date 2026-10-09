@@ -1,0 +1,70 @@
+:root {
+  /* Primary brand colors for light mode (VAI Blue/Navy theme) */
+  --pst-color-primary: #005596;           /* Main headings & active navbar links */
+  --pst-color-primary-highlight: #002244; /* Hover states */
+  --pst-color-secondary: #60abde;         /* Hyperlinks & accent elements */
+  --pst-color-target: #e6f0fa;            /* Highlight background on code anchors */
+  /* Main body text font family */
+  --pst-font-family-base: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  /* Headings font family */
+  --pst-font-family-heading: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  --pst-color-accent: #28ac98 !important;
+}
+
+/* Target light theme top navigation bar */
+html[data-theme="light"] .bd-header {
+  background-color: #003366 !important;
+}
+
+/* Ensure header buttons, links, and icons are white */
+html[data-theme="light"] .bd-header .nav-link,
+html[data-theme="light"] .bd-header .navbar-brand,
+html[data-theme="light"] .bd-header .btn {
+  color: #ffffff;
+}
+
+/* Force Search Input Text to Black */
+html[data-theme="light"] .bd-header form.bd-search-container input.form-control,
+html[data-theme="light"] .bd-header .bd-search input,
+html[data-theme="light"] .bd-search input.form-control {
+  color: #000000 !important;
+  background-color: #ffffff !important; /* Ensures input background is solid white */
+}
+
+/* Force Search Input Placeholder Text to Dark Gray/Black */
+html[data-theme="light"] .search-button-field {
+    color: #636363 !important; 
+}
+html[data-theme="light"] .search-button-field:hover {
+    color: #ffffff !important; 
+}
+
+/* Force Search Magnifying Glass Icon to Black */
+html[data-theme="light"] .bd-header .bd-search .fa-search,
+html[data-theme="light"] .bd-header .bd-search svg,
+html[data-theme="light"] .bd-header .search-button i {
+  color: #000000 !important;
+}
+
+html[data-theme="dark"] {
+  /* Primary brand colors for dark mode */
+  --pst-color-primary: #4DA6FF;
+  --pst-color-primary-highlight: #80C1FF;
+  --pst-color-secondary: #3399FF;
+  --pst-color-target: #002244;
+}
+
+/* Optional: Make the top navigation bar background match VAI dark navy */
+.bd-header.navbar-light {
+  background-color: #001a33 !important;
+}
+
+.bd-header .nav-link {
+  color: #ffffff !important;
+}
+
+.bd-header .nav-link:hover {
+  color: #4DA6FF !important;
+}
