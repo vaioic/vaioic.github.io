@@ -68,3 +68,7 @@ html[data-theme="dark"] {
 .bd-header .nav-link:hover {
   color: #4DA6FF !important;
 }
+
+.bd-sidebar-primary .bd-links__title {
+    display: none;
+}

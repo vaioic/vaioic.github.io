@@ -20,6 +20,8 @@ extensions = [
     "myst_parser",
     "sphinx.ext.autodoc",
     "sphinx.ext.napoleon",
+    "sphinx_inline_tabs",
+    "sphinx_design",
 ]
 
 # File extensions to parse
@@ -52,7 +54,19 @@ html_theme_options = {
     "navbar_end": ["theme-switcher", "navbar-icon-links"],
     "navbar_start": ["navbar-logo"],
     "show_version_warning_banner": False,
+    "secondary_sidebar_items": {
+        "**": ["page-toc"],
+        "index": [],
+    },
+    # Keeps navigation bounded within the active sidebar section
+    "collapse_navigation": True,
+    # Shows only the active section's inner pages
+    "show_nav_level": 1,
+    "show_prev_next": False,
+    "footer_start": ["copyright"],
+    "footer_end": [],
 }
+
 
 html_context = {
     "github_user": "vaioic",
