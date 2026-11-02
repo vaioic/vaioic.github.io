@@ -12,8 +12,8 @@
 > This project uses [uv](https://docs.astral.sh/uv/) to manage virtual environments and dependencies. 
 >
 > If you haven't already, you can install ``uv`` by using:
-    * **macOS or Linux:** ``curl -LsSf https://astral.sh/uv/install.sh | sh``
-    * **Windows:** ``powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"``
+>    * **macOS or Linux:** ``curl -LsSf https://astral.sh/uv/install.sh | sh``
+>    * **Windows:** ``powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"``
 >   
 > To check if you have ``uv`` installed, open a terminal and run ``uv --version``.
 
@@ -53,4 +53,4 @@ This documentation and its associated guides are licensed under the **Creative C
 See the [LICENSE](LICENSE) file for more details. 
 
 When reusing or adapting these materials, please attribute them to **Van Andel Institute
-- Optical Imaging Core**.
+Optical Imaging Core**.
