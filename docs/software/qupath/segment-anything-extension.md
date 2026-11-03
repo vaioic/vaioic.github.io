@@ -80,9 +80,9 @@ the actual Segment Anything model.
    python -m uvicorn samapi.main:app --workers 2
    ```
 
-   > [!IMPORTANT]
-   > You must leave this window open and running while you use the SAM extension. If 
-   > you close it on accident, you can simply restart it.
+   ```{important}
+   You must leave this window open and running while you use the SAM extension. If you close it on accident, you can simply restart it.
+   ```
 
 ### Using the QuPath extension
 
